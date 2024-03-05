@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Biblioteca</string>
+    <string name="boton_menu_principal_1">Libros para rentar</string>
+    <string name="boton_menu_principal_2">Tus libros</string>
+    <string name="boton_menu_principal_3">Salir</string>
+
+
+    <string name="preferencias_titulo1_idioma">Elige uno de estos idiomas</string>
+    <string name="preferencias_titulo2_idioma">¿Qué idioma usas?</string>
+    <string name="preferencias_titulo3_idioma">Elige un idioma</string>
+
+    <string name="preferencias_titulo1_estilo">Elige uno de estos estilos</string>
+    <string name="preferencias_titulo2_estilo">¿Qué estilo usas?</string>
+    <string name="preferencias_titulo3_estilo">Elige un estilo</string>
+
+
+
+    <string name="libro_titulo">Título</string>
+    <string name="libro_autor">Autor</string>
+    <string name="libro_descripcion">Descripción</string>
+
+    <string name="libros_en_alquiler_alquilar"> Alquilar </string>
+    <string name="libros_en_alquiler_detalles"> Ver detalles</string>
+    <string name="libros_en_alquiler_extender"> Extender periodo</string>
+    <string name="libros_en_alquiler_devolver"> Devolver </string>
+
+
+    <string name="alquiler_inicio">Fecha inicio alquiler</string>
+    <string name="alquiler_fin">Fecha fin alquiler</string>
+
+
+    <string name="toast_prorroga_correcta"> Se ha prolongado la fecha de entrega </string>
+    <string name="toast_prorroga_incorrecta1"> No se puede, el libro ya se había atrasado </string>
+    <string name="toast_prorroga_incorrecta2"> No se puede prolongar si ya tienes libros atrasados </string>
+    <string name="toast_devolucion"> Libro devuelto </string>
+    <string name="toast_alquilado_correcto"> Se ha alquilado el libro</string>
+    <string name="toast_alquilado_incorrecto1"> Ya has alquilado 5 libros</string>
+    <string name="toast_alquilado_incorrecto2"> Devuelve los libros retrasados primero</string>
+
+    <string name="titulo_salir_popup"> Salir</string>
+    <string name="descripcion_salir_popup"> Salir</string>
+    <string name="afirmacion_salir_popup"> Salir</string>
+
+    <string name="volver">Volver</string>
+
+
+</resources>

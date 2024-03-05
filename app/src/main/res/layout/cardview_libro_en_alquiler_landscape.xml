@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/tituloAlquiler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/verInfoAlquiler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/libros_en_alquiler_detalles"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tituloAlquiler" />
+
+    <Button
+        android:id="@+id/alargarPlazo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/libros_en_alquiler_extender"
+        app:layout_constraintStart_toEndOf="@+id/verInfoAlquiler"
+        app:layout_constraintTop_toBottomOf="@+id/tituloAlquiler" />
+
+    <Button
+        android:id="@+id/devolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/libros_en_alquiler_devolver"
+        app:layout_constraintStart_toEndOf="@+id/alargarPlazo"
+        app:layout_constraintTop_toBottomOf="@+id/tituloAlquiler" />
+
+    <ImageView
+        android:id="@+id/imagenLibroEnAlquiler"
+        android:layout_width="107dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toEndOf="@+id/devolver"
+        app:layout_constraintTop_toTopOf="@+id/tituloAlquiler" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

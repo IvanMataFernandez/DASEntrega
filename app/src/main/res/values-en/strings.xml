@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="boton_menu_principal_1">Books available</string>
+    <string name="boton_menu_principal_2">Your books</string>
+    <string name="boton_menu_principal_3">Exit</string>
+
+    <string name="preferencias_titulo1_idioma">Choose one of these languages</string>
+    <string name="preferencias_titulo2_idioma">¿What language do you speak?</string>
+    <string name="preferencias_titulo3_idioma">Choose a language</string>
+
+    <string name="preferencias_titulo1_estilo">Choose one of these styles</string>
+    <string name="preferencias_titulo2_estilo">¿What style do you use?</string>
+    <string name="preferencias_titulo3_estilo">Choose a style</string>
+
+    <string name="libro_titulo">Title</string>
+    <string name="libro_autor">Author</string>
+    <string name="libro_descripcion">Description</string>
+
+    <string name="libros_en_alquiler_alquilar"> Take </string>
+    <string name="libros_en_alquiler_detalles"> See details</string>
+    <string name="libros_en_alquiler_extender"> Extend period</string>
+    <string name="libros_en_alquiler_devolver"> Remove </string>
+
+    <string name="alquiler_inicio">Booked since</string>
+    <string name="alquiler_fin">Booked until</string>
+
+    <string name="toast_prorroga_correcta"> Due date has been delayed successfully </string>
+    <string name="toast_prorroga_incorrecta1"> Cannot delay due date since it had already been delayed</string>
+    <string name="toast_prorroga_incorrecta2"> Cannot delay due date since you already have books you should have returned by now </string>
+    <string name="toast_devolucion"> The book has been returned </string>
+    <string name="toast_alquilado_correcto"> The book has been borrowed</string>
+    <string name="toast_alquilado_incorrecto1"> You have already borrowed 5 books</string>
+    <string name="toast_alquilado_incorrecto2"> Return the books that are past the deadline first</string>
+
+    <string name="titulo_salir_popup"> Exit</string>
+    <string name="descripcion_salir_popup"> Are you sure you want to quit the app?</string>
+    <string name="afirmacion_salir_popup"> Yes </string>
+
+
+    <string name="volver">Return</string>
+
+</resources>
