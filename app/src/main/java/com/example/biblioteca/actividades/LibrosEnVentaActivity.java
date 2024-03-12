@@ -220,7 +220,7 @@ public class LibrosEnVentaActivity extends ActividadGlobal {
 
 
         elBuilder.setLargeIcon(BitmapFactory.decodeResource(getResources(), com.google.android.material.R.drawable.abc_btn_check_material))
-                .setSmallIcon(android.R.drawable.stat_sys_warning)
+                .setSmallIcon(android.R.drawable.checkbox_on_background)
                 .setContentTitle(titulo)
                 .setContentText(subtitulo)
                 .setAutoCancel(true)
